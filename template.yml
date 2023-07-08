@@ -365,7 +365,7 @@ Resources:
   BuiltLambda:
     Type: AWS::Serverless::Function
     Properties:
-      Runtime: nodejs12.x
+      Runtime: nodejs18.x
       Events:
         ImagePipeline:
           Type: SNS
